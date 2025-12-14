@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
  /*Styling for the User Registration Form*/
 
@@ -86,4 +87,94 @@ button:hover {
 /* Class applied by JavaScript when validation fails */
 .is-invalid {
     border-color: #ef4444 !important;
+=======
+
+ /*Styling for the User Registration Form*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f4f8; /* Light, calming background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container for the Form */
+.container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #1e3a8a; /* Deep blue header */
+    margin-bottom: 25px;
+}
+
+/* Form Groups and Labels */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Input Fields */
+input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Input Focus Effect */
+input:focus {
+    border-color: #3b82f6; /* Bright blue focus */
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    outline: none;
+}
+
+/* Submission Button */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #10b981; /* Green color for submit */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #059669;
+}
+
+/* Error Feedback Styles (Bonus Feature: Visual Feedback) */
+.error-message {
+    color: #ef4444; /* Bright red for errors */
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none; /* Hidden by default, shown by JavaScript */
+}
+
+/* Class applied by JavaScript when validation fails */
+.is-invalid {
+    border-color: #ef4444 !important;
+>>>>>>> 7d18351b68234a8f788a26e1222d984fd8ab7705
 }
